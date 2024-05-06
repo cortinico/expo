@@ -520,11 +520,16 @@ function getLayoutNode(node: RouteNode, options: Options) {
   const loaded = node.loadRoute();
   if (loaded?.unstable_settings) {
     // Allow unstable_settings={ initialRouteName: '...' } to override the default initial route name.
-    initialRouteName = loaded.unstable_settings.initialRouteName ?? initialRouteName;
+    initialRouteName =
+      loaded.unstable_settings.anchor ??
+      loaded.unstable_settings.initialRouteName ??
+      initialRouteName;
 
     if (groupName) {
       // Allow unstable_settings={ 'custom': { initialRouteName: '...' } } to override the less specific initial route name.
-      const groupSpecificInitialRouteName = loaded.unstable_settings?.[groupName]?.initialRouteName;
+      const groupSpecificInitialRouteName =
+        loaded.unstable_settings?.[groupName]?.anchor ??
+        loaded.unstable_settings?.[groupName]?.initialRouteName;
 
       initialRouteName = groupSpecificInitialRouteName ?? initialRouteName;
     }
@@ -569,11 +574,15 @@ function crawlAndAppendInitialRoutesAndEntryFiles(
       const loaded = node.loadRoute();
       if (loaded?.unstable_settings) {
         // Allow unstable_settings={ initialRouteName: '...' } to override the default initial route name.
-        initialRouteName = loaded.unstable_settings.initialRouteName ?? initialRouteName;
+        initialRouteName =
+          loaded.unstable_settings.anchor ??
+          loaded.unstable_settings.initialRouteName ??
+          initialRouteName;
 
         if (groupName) {
           // Allow unstable_settings={ 'custom': { initialRouteName: '...' } } to override the less specific initial route name.
           const groupSpecificInitialRouteName =
+            loaded.unstable_settings?.[groupName]?.anchor ??
             loaded.unstable_settings?.[groupName]?.initialRouteName;
 
           initialRouteName = groupSpecificInitialRouteName ?? initialRouteName;

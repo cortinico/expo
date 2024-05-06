@@ -10,6 +10,8 @@
 
 ### 💡 Others
 
+- Add `anchor` to `unstable_settings`
+
 ## 4.0.0-preview.4 — 2024-10-28
 
 _This version does not introduce any user-facing changes._
@@ -57,14 +59,10 @@ _This version does not introduce any user-facing changes._
 - Add `relativeToDirectory` option to `<Link />` and imperative navigation. ([#30675](https://github.com/expo/expo/pull/30675) by [@marklawlor](https://github.com/marklawlor))
 - Fix parsing URLs hash on the web after location update ([#31375](https://github.com/expo/expo/pull/31375) by [@marklawlor](https://github.com/marklawlor))
 - Add `routerOptions` prop and improved types of `<Navigator />`. ([#31289](https://github.com/expo/expo/pull/31289) by [@marklawlor](https://github.com/marklawlor))
-<<<<<<< HEAD
 - Render the default StatusBar before screens are rendered. ([#31624](https://github.com/expo/expo/pull/31624) by [@marklawlor](https://github.com/marklawlor))
 - Add `expo-router/ui` with new `Tabs` component ([#30767](https://github.com/expo/expo/pull/30767) by [@marklawlor](https://github.com/marklawlor))
 - Add `withAnchor` to navigation options and `<Link />`. ([#31763](https://github.com/expo/expo/pull/31763) by [@marklawlor](https://github.com/marklawlor))
 - Add `sitemap` option to `expo-router` config plugin to disable sitemap. ([#31701](https://github.com/expo/expo/pull/31701) by [@marklawlor](https://github.com/marklawlor))
-=======
-- Add option to navigate to a route as a non-initial screen
->>>>>>> 0c8ef4ae0f ([router] add option to navigate to a route as a non-initial screen)
 
 ### 🐛 Bug fixes
 
