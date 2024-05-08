@@ -409,7 +409,14 @@ function getLayoutNode(node, options) {
     let anchor = childMatchingGroup?.route;
     const loaded = node.loadRoute();
     if (loaded?.unstable_settings) {
-        anchor = getAnchor(loaded.unstable_settings, node.contextKey, groupName, anchor);
+        // Allow unstable_settings={ initialRouteName: '...' } to override the default initial route name.
+        anchor = loaded.unstable_settings.anchor ?? loaded.unstable_settings.initialRouteName ?? anchor;
+        if (groupName) {
+            // Allow unstable_settings={ 'custom': { initialRouteName: '...' } } to override the less specific initial route name.
+            const groupSpecificInitialRouteName = loaded.unstable_settings?.[groupName]?.anchor ??
+                loaded.unstable_settings?.[groupName]?.initialRouteName;
+            anchor = groupSpecificInitialRouteName ?? anchor;
+        }
     }
     return {
         ...node,
@@ -443,7 +450,15 @@ function crawlAndAppendInitialRoutesAndEntryFiles(node, options, entryPoints = [
         if (!options.internal_stripLoadRoute) {
             const loaded = node.loadRoute();
             if (loaded?.unstable_settings) {
-                anchor = getAnchor(loaded.unstable_settings, node.contextKey, groupName, anchor);
+                // Allow unstable_settings={ initialRouteName: '...' } to override the default initial route name.
+                anchor =
+                    loaded.unstable_settings.anchor ?? loaded.unstable_settings.initialRouteName ?? anchor;
+                if (groupName) {
+                    // Allow unstable_settings={ 'custom': { initialRouteName: '...' } } to override the less specific initial route name.
+                    const groupSpecificInitialRouteName = loaded.unstable_settings?.[groupName]?.anchor ??
+                        loaded.unstable_settings?.[groupName]?.initialRouteName;
+                    anchor = groupSpecificInitialRouteName ?? anchor;
+                }
             }
         }
         if (anchor) {
@@ -478,28 +493,5 @@ function getMostSpecific(routes) {
     // This works even tho routes is holey array (e.g it might have index 0 and 2 but not 1)
     // `.length` includes the holes in its count
     return routes[routes.length - 1];
-}
-function getAnchor(unstable_settings, contextKey, groupName, anchor) {
-    if (unstable_settings.anchor) {
-        anchor = unstable_settings.anchor;
-    }
-    else if (unstable_settings.initialRouteName) {
-        anchor = unstable_settings.initialRouteName;
-        if (process.env.NODE_ENV !== 'production') {
-            console.warn(`[Deprecation] The layout ${contextKey} has an unstable_settings.initialRouteName. Please rename it to unstable_settings.anchor.`);
-        }
-    }
-    if (groupName && unstable_settings?.[groupName]) {
-        if (unstable_settings[groupName].anchor) {
-            anchor = unstable_settings[groupName].anchor;
-        }
-        else if (unstable_settings[groupName].initialRouteName) {
-            anchor = unstable_settings[groupName].initialRouteName;
-            if (process.env.NODE_ENV !== 'production') {
-                console.warn(`[Deprecation] The layout ${contextKey} has an unstable_settings.${groupName}.initialRouteName. Please rename it to unstable_settings.${groupName}.anchor.`);
-            }
-        }
-    }
-    return anchor;
 }
 //# sourceMappingURL=getRoutesCore.js.map
