@@ -5,7 +5,13 @@ import React from 'react';
 import { LocalRouteParamsContext } from './Route';
 import { store, useStoreRootState, useStoreRouteInfo } from './global-state/router-store';
 import { Router } from './imperative-api';
-import { RouteParams, RouteSegments, UnknownOutputParams, InternalRoute } from './types';
+import {
+  RouteParams,
+  RouteSegments,
+  UnknownOutputParams,
+  InternalRoute,
+  RouteOutputParams,
+} from './types';
 
 export function useRootNavigationState() {
   return useStoreRootState();
@@ -158,7 +164,7 @@ export function useGlobalSearchParams() {
 export function useLocalSearchParams<
   TParams extends UnknownOutputParams = UnknownOutputParams,
 >(): TParams;
-export function useLocalSearchParams<TRoute extends InternalRoute>(): RouteParams<TRoute>;
+export function useLocalSearchParams<TRoute extends InternalRoute>(): RouteOutputParams<TRoute>;
 export function useLocalSearchParams() {
   const params = React.useContext(LocalRouteParamsContext) ?? {};
   return Object.fromEntries(

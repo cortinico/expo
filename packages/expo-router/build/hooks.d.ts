@@ -1,5 +1,5 @@
 import { Router } from './imperative-api';
-import { RouteParams, RouteSegments, UnknownOutputParams, InternalRoute } from './types';
+import { RouteParams, RouteSegments, UnknownOutputParams, InternalRoute, RouteOutputParams } from './types';
 export declare function useRootNavigationState(): any;
 export declare function useRouteInfo(): import("./LocationProvider").UrlObject;
 /** @deprecated Use [`useNavigationContainerRef`](#usenavigationcontainerref) instead, which returns a React `ref`. */
@@ -102,7 +102,7 @@ export declare function useGlobalSearchParams<TRoute extends InternalRoute>(): R
  * @see [`useGlobalSearchParams`](#useglobalsearchparams)
  */
 export declare function useLocalSearchParams<TParams extends UnknownOutputParams = UnknownOutputParams>(): TParams;
-export declare function useLocalSearchParams<TRoute extends InternalRoute>(): RouteParams<TRoute>;
+export declare function useLocalSearchParams<TRoute extends InternalRoute>(): RouteOutputParams<TRoute>;
 export declare function useSearchParams({ global }?: {
     global?: boolean | undefined;
 }): URLSearchParams;
