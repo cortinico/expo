@@ -330,17 +330,17 @@ export function applyImageToSplashScreenXML(
     imageName,
     contentMode,
     backgroundColor,
-    logoWidth = 100,
+    imageWidth = 100,
   }: {
     imageName: string;
     contentMode: ImageContentMode;
     backgroundColor: string;
-    logoWidth?: number;
+    imageWidth?: number;
   }
 ): IBSplashScreenDocument {
   const mainView = xml.document.scenes[0].scene[0].objects[0].viewController[0].view[0];
-  const width = logoWidth;
-  const height = logoWidth;
+  const width = imageWidth;
+  const height = imageWidth;
   const x = (mainView.rect[0].$.width - width) / 2;
   const y = (mainView.rect[0].$.height - height) / 2;
 
@@ -409,7 +409,6 @@ export function applyImageToSplashScreenXML(
       customColorSpace: 'sRGB',
     },
   });
-
   return xml;
 }
 
