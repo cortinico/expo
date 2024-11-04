@@ -18,7 +18,7 @@ export function JoinTheCommunity() {
       </HeaderDescription>
       <div
         className={mergeClasses(
-          'inline-grid grid-cols-2 w-full gap-y-6 gap-x-8 my-4',
+          'my-4 inline-grid w-full grid-cols-2 gap-x-8 gap-y-6',
           'max-xl-gutters:grid-cols-1',
           'max-lg-gutters:grid-cols-2',
           'max-md-gutters:grid-cols-1'
@@ -80,7 +80,7 @@ function CommunityGridCell({
     <A
       href={link}
       className={mergeClasses(
-        'flex justify-between items-center bg-default p-4 min-h-[30px] overflow-hidden relative border border-default rounded-lg transition shadow-xs',
+        'relative flex min-h-[30px] items-center justify-between overflow-hidden rounded-lg border border-default bg-default p-4 shadow-xs transition',
         '[&_h2]:!my-0 [&_h3]:!mt-0',
         'hocus:shadow-sm',
         className
@@ -89,7 +89,7 @@ function CommunityGridCell({
       isStyled>
       <div
         className={mergeClasses(
-          'size-12 inline-flex justify-center items-center rounded-lg mr-4',
+          'mr-4 inline-flex size-12 items-center justify-center rounded-lg',
           iconClassName
         )}>
         {icon}
@@ -100,7 +100,7 @@ function CommunityGridCell({
           {description}
         </P>
       </div>
-      <ArrowUpRightIcon className="text-icon-secondary self-center ml-1.5" />
+      <ArrowUpRightIcon className="ml-1.5 self-center text-icon-secondary" />
     </A>
   );
 }

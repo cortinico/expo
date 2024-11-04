@@ -165,7 +165,7 @@ const APISectionProps = ({
           {baseProp && <APISectionDeprecationNote comment={baseProp.comment} />}
           <BoxSectionHeader
             text={header}
-            className="!text-secondary !font-medium"
+            className="!font-medium !text-secondary"
             exposeInSidebar
             baseNestingLevel={99}
           />
