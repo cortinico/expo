@@ -17,6 +17,7 @@ beforeAll(async () => {
   process.env.FORCE_COLOR = '0';
   process.env.CI = '1';
   process.env._EXPO_E2E_USE_PATH_ALIASES = '1';
+  process.env.DEBUG = 'expo*';
 });
 
 afterAll(() => {
