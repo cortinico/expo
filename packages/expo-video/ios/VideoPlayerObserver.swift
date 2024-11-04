@@ -22,6 +22,8 @@ protocol VideoPlayerObserverDelegate: AnyObject {
   func onIsMutedChanged(player: AVPlayer, oldIsMuted: Bool?, newIsMuted: Bool)
   func onPlayerItemStatusChanged(player: AVPlayer, oldStatus: AVPlayerItem.Status?, newStatus: AVPlayerItem.Status)
   func onTimeUpdate(player: AVPlayer, timeUpdate: TimeUpdate)
+  func onSubtitleSelectionChanged(player: AVPlayer, playerItem: AVPlayerItem?, subtitleTrack: SubtitleTrack?)
+  func onLoadedPlayerItem(player: AVPlayer, playerItem: AVPlayerItem?)
 }
 
 // Default implementations for the delegate
@@ -35,6 +37,8 @@ extension VideoPlayerObserverDelegate {
   func onIsMutedChanged(player: AVPlayer, oldIsMuted: Bool?, newIsMuted: Bool) {}
   func onPlayerItemStatusChanged(player: AVPlayer, oldStatus: AVPlayerItem.Status?, newStatus: AVPlayerItem.Status) {}
   func onTimeUpdate(player: AVPlayer, timeUpdate: TimeUpdate) {}
+  func onSubtitleSelectionChanged(player: AVPlayer, playerItem: AVPlayerItem?, subtitleTrack: SubtitleTrack?) {}
+  func onLoadedPlayerItem(player: AVPlayer, playerItem: AVPlayerItem?) {}
 }
 
 // Wrapper used to store WeakReferences to the observer delegate
@@ -66,6 +70,7 @@ class VideoPlayerObserver {
   }
   var delegates = Set<WeakPlayerObserverDelegate>()
   private var currentItem: VideoPlayerItem?
+  private var loadedCurrentItem = false
   private var periodicTimeObserver: Any?
 
   private var isPlaying: Bool = false {
@@ -102,6 +107,7 @@ class VideoPlayerObserver {
   private var playbackBufferEmptyObserver: NSKeyValueObservation?
   private var playerItemStatusObserver: NSKeyValueObservation?
   private var playbackLikelyToKeepUpObserver: NSKeyValueObservation?
+  private var currentSubtitlesObserver: NSObjectProtocol?
 
   init(owner: VideoPlayer) {
     self.owner = owner
@@ -182,6 +188,17 @@ class VideoPlayerObserver {
         delegate.value?.onPlayedToEnd(player: player)
       }
     }
+
+    currentSubtitlesObserver = NotificationCenter.default.addObserver(
+      forName: AVPlayerItem.mediaSelectionDidChangeNotification,
+      object: playerItem,
+      queue: nil
+    ) { [weak self] _ in
+      self?.delegates.forEach { delegate in
+        let subtitleTrack = VideoPlayerSubtitles.findCurrentSubtitleTrack(for: playerItem)
+        delegate.value?.onSubtitleSelectionChanged(player: player, playerItem: playerItem, subtitleTrack: subtitleTrack)
+      }
+    }
   }
 
   private func invalidateCurrentPlayerItemObservers() {
@@ -234,6 +251,7 @@ class VideoPlayerObserver {
       delegates.forEach { delegate in
         delegate.value?.onItemChanged(player: player, oldVideoPlayerItem: currentItem, newVideoPlayerItem: videoPlayerItem)
       }
+      loadedCurrentItem = false
       return
     }
 
@@ -249,8 +267,21 @@ class VideoPlayerObserver {
       )
     }
     currentItem = nil
+    // Nil player item will be loaded instantly
+    onLoadedPlayerItem(player: player, playerItem: nil)
   }
 
+  private func onLoadedPlayerItem(player: AVPlayer, playerItem: AVPlayerItem?) {
+    loadedCurrentItem = true
+    delegates.forEach { delegate in
+      delegate.value?.onLoadedPlayerItem(player: player, playerItem: playerItem)
+    }
+
+    // Changing the player item will disable the subtitles
+    delegates.forEach { delegate in
+      delegate.value?.onSubtitleSelectionChanged(player: player, playerItem: playerItem, subtitleTrack: nil)
+    }
+  }
   private func onItemStatusChanged(_ playerItem: AVPlayerItem, _ change: NSKeyValueObservedChange<AVPlayerItem.Status>) {
     if player?.status != .failed {
       error = nil
@@ -268,6 +299,10 @@ class VideoPlayerObserver {
       } else {
         status = .readyToPlay
       }
+    }
+
+    if let player, !loadedCurrentItem && (status == .readyToPlay || status == .error) {
+      onLoadedPlayerItem(player: player, playerItem: playerItem)
     }
 
     delegates.forEach { delegate in

@@ -1,6 +1,7 @@
 package expo.modules.video.player
 
 import androidx.annotation.OptIn
+import androidx.media3.common.TrackSelectionParameters
 import androidx.media3.common.Tracks
 import androidx.media3.common.util.UnstableApi
 import expo.modules.video.enums.PlayerStatus
@@ -17,6 +18,7 @@ interface VideoPlayerListener {
   fun onSourceChanged(player: VideoPlayer, source: VideoSource?, oldSource: VideoSource?) {}
   fun onPlaybackRateChanged(player: VideoPlayer, rate: Float, oldRate: Float?) {}
   fun onTracksChanged(player: VideoPlayer, tracks: Tracks) {}
+  fun onTrackSelectionParametersChanged(player: VideoPlayer, trackSelectionParameters: TrackSelectionParameters) {}
   fun onTimeUpdate(player: VideoPlayer, timeUpdate: TimeUpdate) {}
   fun onPlayedToEnd(player: VideoPlayer) {}
 }

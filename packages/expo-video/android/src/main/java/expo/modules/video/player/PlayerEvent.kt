@@ -1,15 +1,19 @@
 package expo.modules.video.player
 
 import androidx.annotation.OptIn
+import androidx.media3.common.TrackSelectionParameters
 import androidx.media3.common.Tracks
 import androidx.media3.common.util.UnstableApi
 import expo.modules.video.enums.PlayerStatus
+import expo.modules.video.records.AvailableSubtitleTracksChangedEventPayload
 import expo.modules.video.records.IsPlayingEventPayload
 import expo.modules.video.records.MutedChangedEventPayload
 import expo.modules.video.records.PlaybackError
 import expo.modules.video.records.PlaybackRateChangedEventPayload
 import expo.modules.video.records.SourceChangedEventPayload
 import expo.modules.video.records.StatusChangedEventPayload
+import expo.modules.video.records.SubtitleTrack
+import expo.modules.video.records.SubtitleTrackChangedEventPayload
 import expo.modules.video.records.TimeUpdate
 import expo.modules.video.records.VideoEventPayload
 import expo.modules.video.records.VideoSource
@@ -56,6 +60,24 @@ sealed class PlayerEvent {
     override val emitToJS = false
   }
 
+  data class TrackSelectionParametersChanged(val trackSelectionParameters: TrackSelectionParameters) : PlayerEvent() {
+    override val name = "trackSelectionParametersChange"
+    override val emitToJS = false
+  }
+
+  data class SubtitleTrackChanged(val subtitleTrack: SubtitleTrack?, val oldSubtitleTrack: SubtitleTrack?) : PlayerEvent() {
+    override val name = "subtitleTrackChange"
+    override val jsEventPayload = SubtitleTrackChangedEventPayload(subtitleTrack, oldSubtitleTrack)
+  }
+
+  data class AvailableSubtitleTracksChanged(
+    val availableSubtitleTracks: List<SubtitleTrack>,
+    val oldAvailableSubtitleTracks: List<SubtitleTrack>
+  ) : PlayerEvent() {
+    override val name = "availableSubtitleTracksChange"
+    override val jsEventPayload = AvailableSubtitleTracksChangedEventPayload(availableSubtitleTracks, oldAvailableSubtitleTracks)
+  }
+
   data class TimeUpdated(val timeUpdate: TimeUpdate) : PlayerEvent() {
     override val name = "timeUpdate"
     override val jsEventPayload = timeUpdate
@@ -73,9 +95,12 @@ sealed class PlayerEvent {
       is SourceChanged -> listeners.forEach { it.onSourceChanged(player, source, oldSource) }
       is PlaybackRateChanged -> listeners.forEach { it.onPlaybackRateChanged(player, rate, oldRate) }
       is TracksChanged -> listeners.forEach { it.onTracksChanged(player, tracks) }
+      is TrackSelectionParametersChanged -> listeners.forEach { it.onTrackSelectionParametersChanged(player, trackSelectionParameters) }
       is TimeUpdated -> listeners.forEach { it.onTimeUpdate(player, timeUpdate) }
       is PlayedToEnd -> listeners.forEach { it.onPlayedToEnd(player) }
       is MutedChanged -> listeners.forEach { it.onMutedChanged(player, muted, oldMuted) }
+      // JS-only events
+      else -> Unit
     }
   }
 }

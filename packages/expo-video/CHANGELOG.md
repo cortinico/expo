@@ -6,7 +6,11 @@
 
 ### 🎉 New features
 
+-[Android][iOS] Add support for listing and selecting closed captions.
+
 ### 🐛 Bug fixes
+
+- [Android] Fix errors when passing a source with a `null` `uri` field.
 
 ### 💡 Others
 
