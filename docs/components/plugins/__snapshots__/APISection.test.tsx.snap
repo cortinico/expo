@@ -58,7 +58,7 @@ exports[`APISection expo-apple-authentication 1`] = `
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             AppleAuthenticationButton
@@ -108,7 +108,7 @@ exports[`APISection expo-apple-authentication 1`] = `
         React.Element
         &lt;
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#appleauthenticationbuttonprops"
         >
           AppleAuthenticationButtonProps
@@ -133,7 +133,7 @@ available via the provided properties.
     >
       You should only attempt to render this if 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="#appleauthenticationisavailableasync"
       >
         <code
@@ -258,14 +258,14 @@ not appear on the screen.
           data-text="true"
         >
           <span
-            class="text-default leading-[1.6154] font-semibold"
+            class="leading-[1.6154] text-default font-semibold"
             data-text="true"
           >
             See:
           </span>
            
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.apple.com/documentation/authenticationservices/asauthorizationappleidbutton"
             rel="noopener noreferrer"
             target="_blank"
@@ -344,7 +344,7 @@ for more details.
               class="inline"
             >
               <code
-                class="text-default leading-[1.6154] font-medium wrap-anywhere mb-1 inline-block prose-code:mb-0"
+                class="leading-[1.6154] text-default font-medium wrap-anywhere mb-1 inline-block prose-code:mb-0"
                 data-text="true"
               >
                 buttonStyle
@@ -391,7 +391,7 @@ for more details.
             data-text="true"
           >
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="#appleauthenticationbuttonstyle"
             >
               AppleAuthenticationButtonStyle
@@ -421,7 +421,7 @@ for more details.
               class="inline"
             >
               <code
-                class="text-default leading-[1.6154] font-medium wrap-anywhere mb-1 inline-block prose-code:mb-0"
+                class="leading-[1.6154] text-default font-medium wrap-anywhere mb-1 inline-block prose-code:mb-0"
                 data-text="true"
               >
                 buttonType
@@ -468,7 +468,7 @@ for more details.
             data-text="true"
           >
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="#appleauthenticationbuttontype"
             >
               AppleAuthenticationButtonType
@@ -498,7 +498,7 @@ for more details.
               class="inline"
             >
               <code
-                class="text-default leading-[1.6154] font-medium wrap-anywhere mb-1 inline-block prose-code:mb-0"
+                class="leading-[1.6154] text-default font-medium wrap-anywhere mb-1 inline-block prose-code:mb-0"
                 data-text="true"
               >
                 cornerRadius
@@ -583,7 +583,7 @@ for more details.
               class="inline"
             >
               <code
-                class="text-default leading-[1.6154] font-medium wrap-anywhere mb-1 inline-block prose-code:mb-0"
+                class="leading-[1.6154] text-default font-medium wrap-anywhere mb-1 inline-block prose-code:mb-0"
                 data-text="true"
               >
                 onPress
@@ -649,7 +649,7 @@ for more details.
         >
           The method to call when the user presses the button. You should call 
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="#appleauthenticationisavailableasync"
           >
             <code
@@ -679,7 +679,7 @@ in here.
               class="inline"
             >
               <code
-                class="text-default leading-[1.6154] font-medium wrap-anywhere mb-1 inline-block prose-code:mb-0"
+                class="leading-[1.6154] text-default font-medium wrap-anywhere mb-1 inline-block prose-code:mb-0"
                 data-text="true"
               >
                 style
@@ -738,7 +738,7 @@ in here.
             </span>
             <span>
               <a
-                class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                 href="https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -752,7 +752,7 @@ in here.
               </span>
               <span>
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="https://reactnative.dev/docs/view-style-props"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -854,7 +854,7 @@ properties.
         </a>
       </h4>
       <ul
-        class="text-default leading-[1.6154] list-disc ml-6 [&_ol]:mt-2 [&_ol]:mb-4 [&_ul]:mt-2 [&_ul]:mb-4"
+        class="leading-[1.6154] text-default list-disc ml-6 [&_ol]:mt-2 [&_ol]:mb-4 [&_ul]:mt-2 [&_ul]:mb-4"
       >
         <li
           class="text-default text-[16px] font-normal leading-relaxed tracking-[-0.011rem] mb-2"
@@ -865,7 +865,7 @@ properties.
             data-text="true"
           >
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="https://reactnative.dev/docs/view#props"
               rel="noopener noreferrer"
               target="_blank"
@@ -933,7 +933,7 @@ properties.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             getCredentialStateAsync(user)
@@ -1002,7 +1002,7 @@ properties.
               class="p-4 border-r border-secondary text-left last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 user
@@ -1028,7 +1028,7 @@ properties.
                 The unique identifier for the user whose credential state you'd like to check.
 This should come from the user field of an 
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#appleauthenticationcredentialstate"
                 >
                   <code
@@ -1090,7 +1090,7 @@ This should come from the user field of an
           data-text="true"
         >
           <span
-            class="text-default leading-[1.6154] font-semibold"
+            class="leading-[1.6154] text-default font-semibold"
             data-text="true"
           >
             Note:
@@ -1143,7 +1143,7 @@ This should come from the user field of an
           data-text="true"
         >
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
             rel="noopener noreferrer"
             target="_blank"
@@ -1157,7 +1157,7 @@ This should come from the user field of an
           </span>
           <span>
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="#appleauthenticationcredentialstate"
             >
               AppleAuthenticationCredentialState
@@ -1180,7 +1180,7 @@ This should come from the user field of an
       >
         A promise that fulfills with an 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#appleauthenticationcredentialstate"
         >
           <code
@@ -1211,7 +1211,7 @@ value depending on the state of the credential.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             isAvailableAsync()
@@ -1291,7 +1291,7 @@ value depending on the state of the credential.
           data-text="true"
         >
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
             rel="noopener noreferrer"
             target="_blank"
@@ -1355,7 +1355,7 @@ value depending on the state of the credential.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             refreshAsync(options)
@@ -1424,7 +1424,7 @@ value depending on the state of the credential.
               class="p-4 border-r border-secondary text-left last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 options
@@ -1438,7 +1438,7 @@ value depending on the state of the credential.
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#appleauthenticationrefreshoptions"
                 >
                   AppleAuthenticationRefreshOptions
@@ -1454,7 +1454,7 @@ value depending on the state of the credential.
               >
                 An 
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#appleauthenticationrefreshoptions"
                 >
                   <code
@@ -1521,7 +1521,7 @@ Calling this method will show the sign in modal before actually refreshing the u
           data-text="true"
         >
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
             rel="noopener noreferrer"
             target="_blank"
@@ -1535,7 +1535,7 @@ Calling this method will show the sign in modal before actually refreshing the u
           </span>
           <span>
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="#appleauthenticationcredential"
             >
               AppleAuthenticationCredential
@@ -1558,7 +1558,7 @@ Calling this method will show the sign in modal before actually refreshing the u
       >
         A promise that fulfills with an 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#appleauthenticationcredential"
         >
           <code
@@ -1597,7 +1597,7 @@ refresh operation.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             signInAsync(options)
@@ -1666,7 +1666,7 @@ refresh operation.
               class="p-4 border-r border-secondary text-left last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 options
@@ -1686,7 +1686,7 @@ refresh operation.
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#appleauthenticationsigninoptions"
                 >
                   AppleAuthenticationSignInOptions
@@ -1702,7 +1702,7 @@ refresh operation.
               >
                 An optional 
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#appleauthenticationsigninoptions"
                 >
                   <code
@@ -1747,7 +1747,7 @@ of these options at runtime.
 into your app, so you must store it for later use. It's best to store this information either
 server-side, or using 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="./securestore"
       >
         SecureStore
@@ -1755,7 +1755,7 @@ server-side, or using
       , so that the data persists across app installs.
 You can use 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="#appleauthenticationcredential"
       >
         <code
@@ -1810,7 +1810,7 @@ the user, since this remains the same for apps released by the same developer.
           data-text="true"
         >
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
             rel="noopener noreferrer"
             target="_blank"
@@ -1824,7 +1824,7 @@ the user, since this remains the same for apps released by the same developer.
           </span>
           <span>
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="#appleauthenticationcredential"
             >
               AppleAuthenticationCredential
@@ -1847,7 +1847,7 @@ the user, since this remains the same for apps released by the same developer.
       >
         A promise that fulfills with an 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#appleauthenticationcredential"
         >
           <code
@@ -1886,7 +1886,7 @@ sign-in operation.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             signOutAsync(options)
@@ -1955,7 +1955,7 @@ sign-in operation.
               class="p-4 border-r border-secondary text-left last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 options
@@ -1969,7 +1969,7 @@ sign-in operation.
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#appleauthenticationsignoutoptions"
                 >
                   AppleAuthenticationSignOutOptions
@@ -1985,7 +1985,7 @@ sign-in operation.
               >
                 An 
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#appleauthenticationsignoutoptions"
                 >
                   <code
@@ -2020,7 +2020,7 @@ Calling this method will show the sign in modal before actually signing the user
 Instead of using this method it is recommended to simply clear all the user's data collected
 from using 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="./#signinasync"
       >
         <code
@@ -2032,7 +2032,7 @@ from using
       </a>
        or 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="./#refreshasync"
       >
         <code
@@ -2086,7 +2086,7 @@ from using
           data-text="true"
         >
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
             rel="noopener noreferrer"
             target="_blank"
@@ -2100,7 +2100,7 @@ from using
           </span>
           <span>
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="#appleauthenticationcredential"
             >
               AppleAuthenticationCredential
@@ -2123,7 +2123,7 @@ from using
       >
         A promise that fulfills with an 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#appleauthenticationcredential"
         >
           <code
@@ -2202,7 +2202,7 @@ sign-out operation.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             addRevokeListener(listener)
@@ -2266,7 +2266,7 @@ sign-out operation.
               class="p-4 border-r border-secondary text-left last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 listener
@@ -2395,7 +2395,7 @@ sign-out operation.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium"
+            class="leading-[1.6154] text-default font-medium"
             data-text="true"
           >
             AppleAuthenticationCredential
@@ -2433,7 +2433,7 @@ sign-out operation.
     >
       The object type returned from a successful call to 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="#appleauthenticationsigninasyncoptions"
       >
         <code
@@ -2446,7 +2446,7 @@ sign-out operation.
       ,
 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="#appleauthenticationrefreshasyncoptions"
       >
         <code
@@ -2458,7 +2458,7 @@ sign-out operation.
       </a>
       , or 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="#appleauthenticationsignoutasyncoptions"
       >
         <code
@@ -2505,14 +2505,14 @@ which contains all of the pertinent user and credential information.
           data-text="true"
         >
           <span
-            class="text-default leading-[1.6154] font-semibold"
+            class="leading-[1.6154] text-default font-semibold"
             data-text="true"
           >
             See:
           </span>
            
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.apple.com/documentation/authenticationservices/asauthorizationappleidcredential"
             rel="noopener noreferrer"
             target="_blank"
@@ -2562,7 +2562,7 @@ for more details.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 authorizationCode
@@ -2614,7 +2614,7 @@ the app's server counterpart. Unlike
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 email
@@ -2668,7 +2668,7 @@ an Apple domain.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 fullName
@@ -2683,7 +2683,7 @@ an Apple domain.
               >
                 <span>
                   <a
-                    class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                    class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                     href="#appleauthenticationfullname"
                   >
                     AppleAuthenticationFullName
@@ -2740,7 +2740,7 @@ your app.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 identityToken
@@ -2784,7 +2784,7 @@ your app.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 realUserStatus
@@ -2798,7 +2798,7 @@ your app.
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#appleauthenticationuserdetectionstatus"
                 >
                   AppleAuthenticationUserDetectionStatus
@@ -2823,7 +2823,7 @@ your app.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 state
@@ -2891,7 +2891,7 @@ will be
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 user
@@ -2941,7 +2941,7 @@ developers.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium"
+            class="leading-[1.6154] text-default font-medium"
             data-text="true"
           >
             AppleAuthenticationFullName
@@ -3024,7 +3024,7 @@ may be
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 familyName
@@ -3067,7 +3067,7 @@ may be
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 givenName
@@ -3110,7 +3110,7 @@ may be
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 middleName
@@ -3153,7 +3153,7 @@ may be
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 namePrefix
@@ -3196,7 +3196,7 @@ may be
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 nameSuffix
@@ -3239,7 +3239,7 @@ may be
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 nickname
@@ -3295,7 +3295,7 @@ may be
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium"
+            class="leading-[1.6154] text-default font-medium"
             data-text="true"
           >
             AppleAuthenticationRefreshOptions
@@ -3333,7 +3333,7 @@ may be
     >
       The options you can supply when making a call to 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="#appleauthenticationrefreshasyncoptions"
       >
         <code
@@ -3380,14 +3380,14 @@ You must include the ID string of the user whose credentials you'd like to refre
           data-text="true"
         >
           <span
-            class="text-default leading-[1.6154] font-semibold"
+            class="leading-[1.6154] text-default font-semibold"
             data-text="true"
           >
             See:
           </span>
            
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.apple.com/documentation/authenticationservices/asauthorizationopenidrequest"
             rel="noopener noreferrer"
             target="_blank"
@@ -3437,7 +3437,7 @@ for more details.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 requestedScopes
@@ -3457,7 +3457,7 @@ for more details.
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#appleauthenticationscope"
                 >
                   AppleAuthenticationScope
@@ -3508,7 +3508,7 @@ requests they will be
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 state
@@ -3542,7 +3542,7 @@ successful authentication. This can be used to verify that the response was from
 you made and avoid replay attacks. More information on this property is available in the
 OAuth 2.0 protocol 
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="https://tools.ietf.org/html/rfc6749#section-10.12"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -3560,7 +3560,7 @@ OAuth 2.0 protocol
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 user
@@ -3606,7 +3606,7 @@ OAuth 2.0 protocol
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium"
+            class="leading-[1.6154] text-default font-medium"
             data-text="true"
           >
             AppleAuthenticationSignInOptions
@@ -3644,7 +3644,7 @@ OAuth 2.0 protocol
     >
       The options you can supply when making a call to 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="#appleauthenticationsigninasyncoptions"
       >
         <code
@@ -3691,14 +3691,14 @@ None of these options are required.
           data-text="true"
         >
           <span
-            class="text-default leading-[1.6154] font-semibold"
+            class="leading-[1.6154] text-default font-semibold"
             data-text="true"
           >
             See:
           </span>
            
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.apple.com/documentation/authenticationservices/asauthorizationopenidrequest"
             rel="noopener noreferrer"
             target="_blank"
@@ -3748,7 +3748,7 @@ for more details.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 nonce
@@ -3780,7 +3780,7 @@ for more details.
                 An arbitrary string that is used to prevent replay attacks. See more information on this in the
 
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="https://openid.net/specs/openid-connect-core-1_0.html#CodeFlowSteps"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -3798,7 +3798,7 @@ for more details.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 requestedScopes
@@ -3818,7 +3818,7 @@ for more details.
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#appleauthenticationscope"
                 >
                   AppleAuthenticationScope
@@ -3869,7 +3869,7 @@ requests they will be
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 state
@@ -3903,7 +3903,7 @@ successful authentication. This can be used to verify that the response was from
 you made and avoid replay attacks. More information on this property is available in the
 OAuth 2.0 protocol 
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="https://tools.ietf.org/html/rfc6749#section-10.12"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -3934,7 +3934,7 @@ OAuth 2.0 protocol
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium"
+            class="leading-[1.6154] text-default font-medium"
             data-text="true"
           >
             AppleAuthenticationSignOutOptions
@@ -3972,7 +3972,7 @@ OAuth 2.0 protocol
     >
       The options you can supply when making a call to 
       <a
-        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+        class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
         href="#appleauthenticationsignoutasyncoptions"
       >
         <code
@@ -4019,14 +4019,14 @@ You must include the ID string of the user to sign out.
           data-text="true"
         >
           <span
-            class="text-default leading-[1.6154] font-semibold"
+            class="leading-[1.6154] text-default font-semibold"
             data-text="true"
           >
             See:
           </span>
            
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.apple.com/documentation/authenticationservices/asauthorizationopenidrequest"
             rel="noopener noreferrer"
             target="_blank"
@@ -4076,7 +4076,7 @@ for more details.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 state
@@ -4110,7 +4110,7 @@ successful authentication. This can be used to verify that the response was from
 you made and avoid replay attacks. More information on this property is available in the
 OAuth 2.0 protocol 
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="https://tools.ietf.org/html/rfc6749#section-10.12"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -4128,7 +4128,7 @@ OAuth 2.0 protocol
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 user
@@ -4174,7 +4174,7 @@ OAuth 2.0 protocol
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium"
+            class="leading-[1.6154] text-default font-medium"
             data-text="true"
           >
             Subscription
@@ -4249,7 +4249,7 @@ OAuth 2.0 protocol
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 remove
@@ -4351,7 +4351,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] font-medium wrap-anywhere"
+              class="leading-[1.6154] text-default font-medium wrap-anywhere"
               data-text="true"
             >
               AppleAuthenticationButtonStyle
@@ -4389,7 +4389,7 @@ After calling this function, the listener will no longer receive any events from
       >
         An enum whose values control which pre-defined color scheme to use when rendering an 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#appleauthenticationbutton"
         >
           <code
@@ -4429,7 +4429,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               WHITE
@@ -4490,7 +4490,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               WHITE_OUTLINE
@@ -4551,7 +4551,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               BLACK
@@ -4616,7 +4616,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] font-medium wrap-anywhere"
+              class="leading-[1.6154] text-default font-medium wrap-anywhere"
               data-text="true"
             >
               AppleAuthenticationButtonType
@@ -4654,7 +4654,7 @@ After calling this function, the listener will no longer receive any events from
       >
         An enum whose values control which pre-defined text to use when rendering an 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#appleauthenticationbutton"
         >
           <code
@@ -4694,7 +4694,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               SIGN_IN
@@ -4755,7 +4755,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               CONTINUE
@@ -4859,7 +4859,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               SIGN_UP
@@ -4924,7 +4924,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] font-medium wrap-anywhere"
+              class="leading-[1.6154] text-default font-medium wrap-anywhere"
               data-text="true"
             >
               AppleAuthenticationCredentialState
@@ -4962,7 +4962,7 @@ After calling this function, the listener will no longer receive any events from
       >
         An enum whose values specify state of the credential when checked with 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#appleauthenticationgetcredentialstateasyncuser"
         >
           <code
@@ -5008,14 +5008,14 @@ After calling this function, the listener will no longer receive any events from
             data-text="true"
           >
             <span
-              class="text-default leading-[1.6154] font-semibold"
+              class="leading-[1.6154] text-default font-semibold"
               data-text="true"
             >
               See:
             </span>
              
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="https://developer.apple.com/documentation/authenticationservices/asauthorizationappleidprovidercredentialstate"
               rel="noopener noreferrer"
               target="_blank"
@@ -5056,7 +5056,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               REVOKED
@@ -5111,7 +5111,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               AUTHORIZED
@@ -5166,7 +5166,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               NOT_FOUND
@@ -5221,7 +5221,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               TRANSFERRED
@@ -5280,7 +5280,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] font-medium wrap-anywhere"
+              class="leading-[1.6154] text-default font-medium wrap-anywhere"
               data-text="true"
             >
               AppleAuthenticationOperation
@@ -5340,7 +5340,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               IMPLICIT
@@ -5401,7 +5401,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               LOGIN
@@ -5456,7 +5456,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               REFRESH
@@ -5511,7 +5511,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               LOGOUT
@@ -5570,7 +5570,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] font-medium wrap-anywhere"
+              class="leading-[1.6154] text-default font-medium wrap-anywhere"
               data-text="true"
             >
               AppleAuthenticationScope
@@ -5608,7 +5608,7 @@ for more details.
       >
         An enum whose values specify scopes you can request when calling 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#appleauthenticationsigninasyncoptions"
         >
           <code
@@ -5698,14 +5698,14 @@ You will still need to handle null values for any fields you request.
             data-text="true"
           >
             <span
-              class="text-default leading-[1.6154] font-semibold"
+              class="leading-[1.6154] text-default font-semibold"
               data-text="true"
             >
               See:
             </span>
              
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="https://developer.apple.com/documentation/authenticationservices/asauthorizationscope"
               rel="noopener noreferrer"
               target="_blank"
@@ -5746,7 +5746,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               FULL_NAME
@@ -5801,7 +5801,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               EMAIL
@@ -5860,7 +5860,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] font-medium wrap-anywhere"
+              class="leading-[1.6154] text-default font-medium wrap-anywhere"
               data-text="true"
             >
               AppleAuthenticationUserDetectionStatus
@@ -5932,14 +5932,14 @@ for more details.
             data-text="true"
           >
             <span
-              class="text-default leading-[1.6154] font-semibold"
+              class="leading-[1.6154] text-default font-semibold"
               data-text="true"
             >
               See:
             </span>
              
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="https://developer.apple.com/documentation/authenticationservices/asuserdetectionstatus"
               rel="noopener noreferrer"
               target="_blank"
@@ -5980,7 +5980,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               UNSUPPORTED
@@ -6041,7 +6041,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               UNKNOWN
@@ -6102,7 +6102,7 @@ for more details.
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               LIKELY_REAL
@@ -6209,7 +6209,7 @@ exports[`APISection expo-pedometer 1`] = `
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             getPermissionsAsync()
@@ -6289,7 +6289,7 @@ exports[`APISection expo-pedometer 1`] = `
           data-text="true"
         >
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
             rel="noopener noreferrer"
             target="_blank"
@@ -6303,7 +6303,7 @@ exports[`APISection expo-pedometer 1`] = `
           </span>
           <span>
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="#permissionresponse"
             >
               PermissionResponse
@@ -6377,7 +6377,7 @@ exports[`APISection expo-pedometer 1`] = `
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             getStepCountAsync(start, end)
@@ -6446,7 +6446,7 @@ exports[`APISection expo-pedometer 1`] = `
               class="p-4 border-r border-secondary text-left last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 start
@@ -6460,7 +6460,7 @@ exports[`APISection expo-pedometer 1`] = `
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -6487,7 +6487,7 @@ exports[`APISection expo-pedometer 1`] = `
               class="p-4 border-r border-secondary text-left last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 end
@@ -6501,7 +6501,7 @@ exports[`APISection expo-pedometer 1`] = `
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -6573,7 +6573,7 @@ exports[`APISection expo-pedometer 1`] = `
           data-text="true"
         >
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
             rel="noopener noreferrer"
             target="_blank"
@@ -6587,7 +6587,7 @@ exports[`APISection expo-pedometer 1`] = `
           </span>
           <span>
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="#pedometerresult"
             >
               PedometerResult
@@ -6610,7 +6610,7 @@ exports[`APISection expo-pedometer 1`] = `
       >
         Returns a promise that fulfills with a 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#pedometerresult"
         >
           <code
@@ -6630,7 +6630,7 @@ exports[`APISection expo-pedometer 1`] = `
       >
         As 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="https://developer.apple.com/documentation/coremotion/cmpedometer/1613946-querypedometerdatafromdate?language=objc"
           rel="noopener noreferrer"
           target="_blank"
@@ -6701,7 +6701,7 @@ a start date that is more than seven days in the past returns only the available
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             isAvailableAsync()
@@ -6781,7 +6781,7 @@ a start date that is more than seven days in the past returns only the available
           data-text="true"
         >
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
             rel="noopener noreferrer"
             target="_blank"
@@ -6839,7 +6839,7 @@ available on this device.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             requestPermissionsAsync()
@@ -6919,7 +6919,7 @@ available on this device.
           data-text="true"
         >
           <a
-            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+            class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
             rel="noopener noreferrer"
             target="_blank"
@@ -6933,7 +6933,7 @@ available on this device.
           </span>
           <span>
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="#permissionresponse"
             >
               PermissionResponse
@@ -6964,7 +6964,7 @@ available on this device.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             watchStepCount(callback)
@@ -7033,7 +7033,7 @@ available on this device.
               class="p-4 border-r border-secondary text-left last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 callback
@@ -7047,7 +7047,7 @@ available on this device.
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#pedometerupdatecallback"
                 >
                   PedometerUpdateCallback
@@ -7064,7 +7064,7 @@ available on this device.
                 A callback that is invoked when new step count data is available. The callback is
 provided with a single argument that is 
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#pedometerresult"
                 >
                   <code
@@ -7142,7 +7142,7 @@ provided with a single argument that is
       >
         Returns a 
         <a
-          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+          class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
           href="#subscription"
         >
           <code
@@ -7202,7 +7202,7 @@ provided with a single argument that is
             Pedometer updates will not be delivered while the app is in the background. As an alternative, on Android, use another solution based on
 
             <a
-              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+              class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
               href="https://developer.android.com/health-and-fitness/guides/health-connect"
               rel="noopener noreferrer"
               target="_blank"
@@ -7286,7 +7286,7 @@ On iOS, the
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             PermissionResponse
@@ -7372,7 +7372,7 @@ On iOS, the
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 canAskAgain
@@ -7408,7 +7408,7 @@ in order to enable/disable the permission.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 expires
@@ -7422,7 +7422,7 @@ in order to enable/disable the permission.
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#permissionexpiration"
                 >
                   PermissionExpiration
@@ -7447,7 +7447,7 @@ in order to enable/disable the permission.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 granted
@@ -7481,7 +7481,7 @@ in order to enable/disable the permission.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 status
@@ -7495,7 +7495,7 @@ in order to enable/disable the permission.
                 data-text="true"
               >
                 <a
-                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                  class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                   href="#permissionstatus"
                 >
                   PermissionStatus
@@ -7574,7 +7574,7 @@ in order to enable/disable the permission.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium"
+            class="leading-[1.6154] text-default font-medium"
             data-text="true"
           >
             PedometerResult
@@ -7643,7 +7643,7 @@ in order to enable/disable the permission.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 steps
@@ -7690,7 +7690,7 @@ in order to enable/disable the permission.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium"
+            class="leading-[1.6154] text-default font-medium"
             data-text="true"
           >
             PedometerUpdateCallback
@@ -7762,7 +7762,7 @@ in order to enable/disable the permission.
                 class="p-4 border-r border-secondary text-left last:border-r-0 [&>*:last-child]:!mb-0"
               >
                 <span
-                  class="text-default leading-[1.6154] font-semibold"
+                  class="leading-[1.6154] text-default font-semibold"
                   data-text="true"
                 >
                   result
@@ -7776,7 +7776,7 @@ in order to enable/disable the permission.
                   data-text="true"
                 >
                   <a
-                    class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_span]:text-link [&_code]:text-link [&_strong]:text-link [&_em]:text-link [&_b]:text-link [&_i]:text-link"
+                    class="cursor-pointer decoration-0 hocus:opacity-80 font-normal text-link visited:text-link hocus:underline [&_code]:hocus:underline [&_b]:text-link [&_code]:text-link [&_em]:text-link [&_i]:text-link [&_span]:text-link [&_strong]:text-link"
                     href="#pedometerresult"
                   >
                     PedometerResult
@@ -7850,7 +7850,7 @@ in order to enable/disable the permission.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium wrap-anywhere"
+            class="leading-[1.6154] text-default font-medium wrap-anywhere"
             data-text="true"
           >
             PermissionExpiration
@@ -7952,7 +7952,7 @@ in order to enable/disable the permission.
           class="inline"
         >
           <code
-            class="text-default leading-[1.6154] font-medium"
+            class="leading-[1.6154] text-default font-medium"
             data-text="true"
           >
             Subscription
@@ -8027,7 +8027,7 @@ in order to enable/disable the permission.
               class="p-4 border-r border-secondary text-left w-fit last:border-r-0 [&>*:last-child]:!mb-0"
             >
               <span
-                class="text-default leading-[1.6154] font-semibold"
+                class="leading-[1.6154] text-default font-semibold"
                 data-text="true"
               >
                 remove
@@ -8129,7 +8129,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] font-medium wrap-anywhere"
+              class="leading-[1.6154] text-default font-medium wrap-anywhere"
               data-text="true"
             >
               PermissionStatus
@@ -8189,7 +8189,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               DENIED
@@ -8250,7 +8250,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               GRANTED
@@ -8311,7 +8311,7 @@ After calling this function, the listener will no longer receive any events from
             class="inline"
           >
             <code
-              class="text-default leading-[1.6154] !text-inherit"
+              class="leading-[1.6154] text-default !text-inherit"
               data-text="true"
             >
               UNDETERMINED
