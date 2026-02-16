@@ -1154,9 +1154,6 @@ export class MetroBundlerDevServer extends BundlerDevServer {
       resetCache: options.resetDevServer,
     };
 
-    // Required for symbolication:
-    process.env.EXPO_DEV_SERVER_ORIGIN = `http://localhost:${options.port}`;
-
     const { metro, hmrServer, server, middleware, messageSocket } = await instantiateMetroAsync(
       this,
       parsedOptions,
@@ -1165,6 +1162,12 @@ export class MetroBundlerDevServer extends BundlerDevServer {
         exp,
       }
     );
+
+    const isHttps = server instanceof (await import('https')).Server;
+    const protocol = isHttps ? 'https' : 'http';
+
+    // Required for symbolication:
+    process.env.EXPO_DEV_SERVER_ORIGIN = `${protocol}://localhost:${options.port}`;
 
     if (!options.isExporting) {
       const manifestMiddleware = await this.getManifestMiddlewareAsync(options);
@@ -1396,9 +1399,8 @@ export class MetroBundlerDevServer extends BundlerDevServer {
         port: options.port,
         // localhost isn't always correct.
         host: 'localhost',
-        // http is the only supported protocol on native.
-        url: `http://localhost:${options.port}`,
-        protocol: 'http',
+        url: `${protocol}://localhost:${options.port}`,
+        protocol,
       },
       middleware,
       messageSocket,

@@ -289,6 +289,9 @@ export async function instantiateMetroAsync(
     resetAtlasFile: isExporting,
   });
 
+  // Support HTTPS via secureServerOptions on the metro config's server key
+  const { secureServerOptions } = metroConfig.server as any;
+
   const { server, hmrServer, metro } = await runServer(
     metroBundler,
     metroConfig,
@@ -298,6 +301,7 @@ export async function instantiateMetroAsync(
         ...createDevToolsPluginWebsocketEndpoint(),
       },
       watch: !isExporting && isWatchEnabled(),
+      secureServerOptions,
     },
     {
       mockServer: isExporting,
