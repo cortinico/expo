@@ -289,8 +289,17 @@ export async function instantiateMetroAsync(
     resetAtlasFile: isExporting,
   });
 
-  // Support HTTPS via secureServerOptions on the metro config's server key
-  const { secureServerOptions } = metroConfig.server as any;
+  // Support HTTPS based on the metro's tls server config
+  // @ts-ignore- the tls option will be added in the latest metro config
+  const { tls } = metroConfig.server;
+  const secureServerOptions = !tls
+    ? undefined
+    : {
+        key: tls.key,
+        cert: tls.cert,
+        ca: tls.ca,
+        requestCert: tls.requestCert,
+      };
 
   const { server, hmrServer, metro } = await runServer(
     metroBundler,
