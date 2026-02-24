@@ -33,6 +33,7 @@ import assert from 'assert';
 import chalk from 'chalk';
 import type { RouteNode } from 'expo-router/build/Route';
 import { type RouteInfo, type RoutesManifest } from 'expo-server/private';
+import https from 'https';
 import path from 'path';
 
 import {
@@ -1163,8 +1164,7 @@ export class MetroBundlerDevServer extends BundlerDevServer {
       }
     );
 
-    const isHttps = server instanceof (await import('https')).Server;
-    const protocol = isHttps ? 'https' : 'http';
+    const protocol = server instanceof https.Server ? 'https' : 'http';
 
     // Required for symbolication:
     process.env.EXPO_DEV_SERVER_ORIGIN = `${protocol}://localhost:${options.port}`;
